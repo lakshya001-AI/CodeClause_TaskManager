@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".IntroScreen">
+
+    <ImageView
+        android:id="@+id/taskmagerimage"
+        android:layout_width="456dp"
+        android:layout_height="347dp"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/taskmanager1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textviewtaskmanager"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:layout_marginTop="44dp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/background_textview"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:text="Manage Your Task and Prioritize Your Work "
+        android:textAlignment="center"
+        android:textColor="#4B00B3"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskmagerimage">
+
+
+    </TextView>
+
+    <Button
+        android:id="@+id/getstartedButton"
+        android:layout_width="180dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="#801AFF"
+        android:text="Get Started"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewtaskmanager">
+
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
